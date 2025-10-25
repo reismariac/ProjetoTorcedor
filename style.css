@@ -8,7 +8,7 @@
 /* Estilo geral do corpo da página */
 body {
   font-family:  Verdana, sans-serif; /*'Segoe UI', Tahoma, Geneva, //* Define a fonte padrão da página */
-  background: linear-gradient(135deg, #ccc #666);
+  background: lightgray;
   color: #333; /* Define a cor padrão do texto */
   display: flex; /* Usa o Flexbox para centralizar o conteúdo */
   align-items: center; /* Alinha o conteúdo verticalmente ao centro */
@@ -98,10 +98,24 @@ button {
   border: none; /* Remove qualquer borda padrão */
   padding: 12px; /* Tamanho interno do botão */
   border-radius: 8px; /* Arredonda as bordas do botão */
-  width: 100%; /* Faz o botão ocupar toda a largura disponível */
+  width: 50%; /* Faz o botão ocupar toda a largura disponível */
   font-size: 16px; /* Define o tamanho da fonte do botão */
   cursor: pointer; /* Muda o cursor para uma mãozinha ao passar o mouse */
   transition: 0.3s; /* Adiciona uma transição suave para efeitos */
+}
+
+.form-group-buttons
+{
+    display: flex;
+    gap: 1rem;
+    margin-top: 1.3rem;
+}
+
+.form-group-buttons
+button {
+    flex: 1;
+    width: 100%;
+    padding: 0.9rem;
 }
 
 /* Efeito quando o mouse passa sobre o botão */
