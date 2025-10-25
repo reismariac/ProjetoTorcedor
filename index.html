@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sócio Torcedor</title>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="form-container">
+        <h1>Cadastro do Torcedor</h1>
+
+        <form id="CadastroTorcedor" action="#" method="post">
+
+            <label for="nome">Nome completo:</label>
+            <input type="text" id="nome" name="nome_aluno" placeholder="Eduardo" required>
+
+            <label for="cpf">CPF:</label>
+            <input type="text" id="cpf" name="cpf" placeholder="000.000.000-00" required>
+
+            <label for="time">Time do Coração:</label>
+            <select id="time" name="time" required>
+                <option value="0" disabled selected>Selecione</option>
+                <option value="1">Atlético Mineiro</option>
+                <option value="2">Bahia</option>
+                <option value="3">Botafogo</option>
+                <option value="4">Bragantino</option>
+                <option value="5">Ceará</option>
+                <option value="6">Corinthians</option>
+                <option value="7">Cruzeiro</option>
+                <option value="8">Flamengo</option>
+                <option value="9">Fluminense</option>
+                <option value="10">Fortaleza</option>
+                <option value="11">Grêmio</option>
+                <option value="12">Internacional</option>
+                <option value="13">Juventude</option>
+                <option value="14">Mirasol</option>
+                <option value="15">Palmeiras</option>
+                <option value="16">Santos</option>
+                <option value="17">São Paulo</option>
+                <option value="18">Sport</option>
+                <option value="19">Vasco da Gama</option>
+                <option value="20">Vitória</option>
+                </select>
+
+            <label for="frequencia">Frequência nos Estádios</label>
+            <select id="frequencia" name="frequencia" required>
+                <option value="0" disabled selected>Selecione</option>
+                <option value="1">Sempre</option>
+                <option value="2">Muito Frequente</option>
+                <option value="3">Mediana</option>
+                <option value="4">Pouco Frequente</option>
+                <option value="5">Nunca fui a um estádio</option>
+            </select>
+
+            <label for="sociotorcedor">Você é Sócio Torcedor?</label>
+            <select id="sociotorcedor" name="sociotorcedor" required>
+                <option value="0" disabled selected>Selecione</option>
+                <option value="1">Sim</option>
+                <option value="2">Não, mas pretendo ser</option>
+                <option value="3">Não, e não pretendo ser</option>
+            </select>
+
+            <label for="camisa">Você Possui Camisa Oficial?</label>
+            <select id="camisa" name="camisa" required>
+                <option value="0" disabled selected>Selecione</option>
+                <option value="1">Sim</option>
+                <option value="2">Não, mas pretendo ter</option>
+                <option value="3">Não, e não pretendo ter</option>
+            </select>
+
+            <button type="submit">Cadastrar Torcedor</button>
+
+        </form>
+    </div>
+
+</body>
+
+</html>
