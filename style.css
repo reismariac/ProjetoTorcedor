@@ -14,6 +14,7 @@ body {
   align-items: center; /* Alinha o conteúdo verticalmente ao centro */
   justify-content: center; /* Alinha o conteúdo horizontalmente ao centro */
   height: 100vh; /* Define a altura da tela (100% da viewport) */
+  flex-direction: column;
 }
 
 /* Container principal do formulário */
@@ -121,4 +122,11 @@ button {
 /* Efeito quando o mouse passa sobre o botão */
 button:hover {
   background-color: #1565c0; /* Muda a cor de fundo para um azul mais claro */
+}
+
+.footer{
+    text-align: center;
+    margin-top: 2rem;
+    color: #888;
+    font-size: 0.9rem;
 }
