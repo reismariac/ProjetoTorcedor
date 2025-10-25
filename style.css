@@ -8,7 +8,7 @@
 /* Estilo geral do corpo da página */
 body {
   font-family:  Verdana, sans-serif; /*'Segoe UI', Tahoma, Geneva, //* Define a fonte padrão da página */
-  background: linear-gradient(135deg, #1354b6, #ebfa21, #991879); /* Cria um fundo com gradiente azul em 135 graus */
+  background: linear-gradient(135deg, #ccc #666);
   color: #333; /* Define a cor padrão do texto */
   display: flex; /* Usa o Flexbox para centralizar o conteúdo */
   align-items: center; /* Alinha o conteúdo verticalmente ao centro */
@@ -18,7 +18,7 @@ body {
 
 /* Container principal do formulário */
 .container {
-  background-color: #fff; /* Define o fundo branco para o formulário */
+  background-color: #666; /* Define o fundo branco para o formulário */
   padding: 30px 40px; /* Adiciona espaçamento interno (30px em cima e embaixo, 40px nas laterais) */
   border-radius: 12px; /* Arredonda os cantos do formulário */
   box-shadow: 0 8px 18px rgba(0, 0, 0, 0.15); /* Cria uma sombra suave ao redor da caixa */
